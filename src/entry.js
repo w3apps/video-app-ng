@@ -7,9 +7,9 @@ videoApp.config(function ($routeProvider, $locationProvider) {
             templateUrl: 'pages/video-search/video-search.html',
             controller: 'VideoSearchCtrl',
         })
-        .when('my-videos', {
-            templateUrl: 'pages/my-videos.html',
-            controller: 'MyVideosCtrl',
+        .when('/my-videos', {
+            templateUrl: 'pages/my-videos/my-videos.html',
+            controller: 'MyVideosCtrl as ctrl',
         });
 
     $locationProvider.html5Mode(true);

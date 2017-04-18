@@ -1,5 +1,5 @@
-videoApp.controller('VideoSearchCtrl', function () {
+videoApp.controller('VideoSearchCtrl', [function () {
 
-    console.log('we got controller');
+    console.log('VideoSearchCtrl');
 
-});
+}]);
