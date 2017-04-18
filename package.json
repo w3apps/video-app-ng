@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/w3apps/video-app-ng/issues"
   },
-  "homepage": "https://github.com/w3apps/video-app-ng#readme"
+  "homepage": "https://github.com/w3apps/video-app-ng#readme",
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
 }

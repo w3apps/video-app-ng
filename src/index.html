@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video App NG</title>
+        <base href="/">
+        <link href="./main.css" />
+    </head>
+    <body ng-app="video-app">
+
+        <a href="/">Search Videos</a>
+        <a href="/my-videos">My Videos</a>
+
+        <div ng-view></div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+
+        <script src="./entry.js"></script>
+        <script src="./pages/video-search/video-search.js"></script>
+    </body>
+</html>
