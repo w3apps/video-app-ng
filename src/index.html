@@ -3,7 +3,8 @@
     <head>
         <title>Video App NG</title>
         <base href="/">
-        <link href="./main.css" />
+        <link rel="stylesheet" type="text/css" href="./main.css" />
+        <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.css" />
     </head>
     <body ng-app="video-app">
 
@@ -14,9 +15,18 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-aria.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-messages.min.js"></script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
 
         <script src="./entry.js"></script>
+        <script src="./services/videos-service.js"></script>
         <script src="./pages/video-search/video-search.js"></script>
         <script src="./pages/my-videos/my-videos.js"></script>
+        <script src="./components/search/search.js"></script>
+        <script src="./components/search/auto-complete.js"></script>
+        <script src="./components/video-item/video-item.js"></script>
     </body>
 </html>

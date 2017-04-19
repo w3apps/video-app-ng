@@ -1,6 +1,11 @@
-window.videoApp = angular.module('video-app', ['ngRoute']);
+window.videoApp = angular.module('video-app', ['ngMaterial', 'ngRoute']);
 
-videoApp.config(function ($routeProvider, $locationProvider) {
+videoApp.config(function ($routeProvider, $locationProvider, $sceDelegateProvider) {
+
+    $sceDelegateProvider.resourceUrlWhitelist([
+        'self',
+        'http://suggestqueries.google.com/complete/search**'
+    ]);
 
     $routeProvider
         .when('/', {
